@@ -1,0 +1,10 @@
+^D:\PROG\ARCH&DEARCH\BUILD\CMAKEFILES\43862AF3485C7C4FAD896A1A0B70E903\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/prog/arch&dearch" "-BD:/prog/arch&dearch/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/prog/arch&dearch/build/arch_dearch.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
