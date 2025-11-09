@@ -1,1 +1,17 @@
-RLE, or Run-Length Encoding, is a simple form of data compression that is particularly effective for data that contains many consecutive repeated values, such as bitmaps or (in my case) char-pictures
+# Archivation-Dearchivation Tool
+
+A simple text compression/decompression utility using run-length encoding.
+
+## Build Instructions
+
+### Prerequisites
+- CMake 3.10+
+- C++17 compatible compiler
+
+### Building
+
+```bash
+mkdir build
+cd build
+cmake ..
+cmake --build .

@@ -1,3 +1,0 @@
-D:/prog/arch&dearch/build/CMakeFiles/arch_dearch.dir
-D:/prog/arch&dearch/build/CMakeFiles/ALL_BUILD.dir
-D:/prog/arch&dearch/build/CMakeFiles/ZERO_CHECK.dir
