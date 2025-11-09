@@ -10,8 +10,4 @@ A simple text compression/decompression utility using run-length encoding.
 
 ### Building
 
-```bash
-mkdir build
-cd build
-cmake ..
-cmake --build .
+Run ``build.sh (MacOS && Linux)`` or ``build.bat`` to run archiver
